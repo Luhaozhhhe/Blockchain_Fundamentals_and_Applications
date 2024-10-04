@@ -1,2 +1,0 @@
-运行keygen.py之前，先安装python-bitcoinlib包：
-pip install python-bitcoinlib
