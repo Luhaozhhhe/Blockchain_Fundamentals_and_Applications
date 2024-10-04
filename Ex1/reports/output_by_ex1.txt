@@ -1,0 +1,49 @@
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Lab01$ /bin/python3 /home/luhaozhhhe/BlockChain2024/Lab01/ex1.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "1a4ed5ac1b3403f7a851541b1086ddc71064cd0749137c1b3b0f553aa3440d3c",
+    "addresses": [
+      "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM",
+      "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
+    ],
+    "total": 1000,
+    "fees": 0,
+    "size": 192,
+    "vsize": 192,
+    "preference": "low",
+    "relayed_by": "60.29.153.8",
+    "received": "2024-10-04T01:39:55.700323737Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "b95bbc0006084b3edb5d87f55bd05b3696c5d34ca7f7ba74426219d5ebe24615",
+        "output_index": 0,
+        "script": "483045022100d1cd330acf57c411387a5f611016611979705b3bd7615799c0f53df83bffff2b02204a870c7b3e085a85e5199195982a0bb832a226d226390035945b56072aa36c37012103019c64252a509d87deb3ac2592c017b5237d7b49b4b96d75845a9a0253740fd2",
+        "output_value": 1000,
+        "sequence": 4294967295,
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 3009503
+      }
+    ],
+    "outputs": [
+      {
+        "value": 1000,
+        "script": "76a9149f9a7abd600c0caa03983a77c8c3df8e062cb2fa88ac",
+        "addresses": [
+          "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}

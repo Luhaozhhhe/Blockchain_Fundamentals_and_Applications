@@ -1,0 +1,120 @@
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Lab01$ /bin/python3 "/home/luhaozhhhe/BlockChain2024/Lab01/split_test_coins .py"
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "b95bbc0006084b3edb5d87f55bd05b3696c5d34ca7f7ba74426219d5ebe24615",
+    "addresses": [
+      "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+    ],
+    "total": 10000,
+    "fees": 1267,
+    "size": 497,
+    "vsize": 497,
+    "preference": "low",
+    "relayed_by": "60.29.153.8",
+    "received": "2024-10-04T01:33:13.270174753Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 10,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "6a1c1c4257890d699b47685053744bf0db805bd19e96f3d4930bba74de89ec1d",
+        "output_index": 0,
+        "script": "47304402201c17a39d6d828a07c001923f0295d44ff0d0412748dc04b361427a3ab5bfb3290220559695c1cee8c01c1e09e0c6eb33944e4da153d0ba9c2e3eb22b5584cac8f1ab012103019c64252a509d87deb3ac2592c017b5237d7b49b4b96d75845a9a0253740fd2",
+        "output_value": 11267,
+        "sequence": 4294967295,
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 3009499
+      }
+    ],
+    "outputs": [
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
