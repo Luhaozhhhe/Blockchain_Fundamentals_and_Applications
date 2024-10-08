@@ -1,0 +1,49 @@
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Ex2$ /bin/python3 /home/luhaozhhhe/BlockChain2024/Ex2/ex2a.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "b8c28455c3fa7498d49620dab820d41e1213432a1430ebca6be2418c475e1cb7",
+    "addresses": [
+      "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM",
+      "zByATba1LvxeFfDKjScGMJXS362cPsaDZQ"
+    ],
+    "total": 1000,
+    "fees": 0,
+    "size": 271,
+    "vsize": 271,
+    "preference": "low",
+    "relayed_by": "111.33.78.4",
+    "received": "2024-10-08T08:46:22.886784817Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "b95bbc0006084b3edb5d87f55bd05b3696c5d34ca7f7ba74426219d5ebe24615",
+        "output_index": 0,
+        "script": "473044022001c00309a8e0b4dacf03c5553a2852d2549903e3a0902c12eb43b1e67f59a4ed02205c868f8894ddf5d66c1ff50aae8e11e825d2eb4aa6cebbb41f471b35f0a6df2b012103019c64252a509d87deb3ac2592c017b5237d7b49b4b96d75845a9a0253740fd2",
+        "output_value": 1000,
+        "sequence": 4294967295,
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 3009503
+      }
+    ],
+    "outputs": [
+      {
+        "value": 1000,
+        "script": "53210281db26acfc8c53b647b2c958c0fa73fb6dc3c97c0169c930db726b27be10703f210357bab7788d238d673fb53685e3f1980c8fcaf3209fdf8dc26a9fe7e1476b0a2c21025676e7dfdedca8fefc3031f842bd0cb56c4dd516f72c64d82403b2ffeaff346353ae",
+        "addresses": [
+          "zByATba1LvxeFfDKjScGMJXS362cPsaDZQ"
+        ],
+        "script_type": "pay-to-multi-pubkey-hash"
+      }
+    ]
+  }
+}
