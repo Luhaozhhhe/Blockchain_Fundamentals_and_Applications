@@ -1,0 +1,45 @@
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Ex3/codes$ /bin/python3 /home/luhaozhhhe/BlockChain2024/Ex3/codes/ex3b.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "7753049921c0bbac9e44c4edd6c57749ff554c35188b7ea93dd0e4ed4a613ce1",
+    "addresses": [
+      "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
+    ],
+    "total": 500,
+    "fees": 500,
+    "size": 91,
+    "vsize": 91,
+    "preference": "low",
+    "relayed_by": "60.29.153.32",
+    "received": "2024-10-22T08:03:37.422689423Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "f0b8f633740c034a7efe861804546c98cccbc1d96f758ce15e392ac4133ac580",
+        "output_index": 0,
+        "script": "026704023c04",
+        "output_value": 1000,
+        "sequence": 4294967295,
+        "script_type": "unknown",
+        "age": 0
+      }
+    ],
+    "outputs": [
+      {
+        "value": 500,
+        "script": "76a9149f9a7abd600c0caa03983a77c8c3df8e062cb2fa88ac",
+        "addresses": [
+          "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
