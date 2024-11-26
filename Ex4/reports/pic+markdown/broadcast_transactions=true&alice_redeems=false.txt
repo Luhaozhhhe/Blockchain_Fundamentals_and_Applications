@@ -1,0 +1,97 @@
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Ex4$ /bin/python3 /home/luhaozhhhe/BlockChain2024/Ex4/swap.py
+Alice swap tx (BTC) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "db9ccc8d1a97a83c7bd76ba72ab1e92f59cb9ce18c4eb3cfdafc96ef8a7b2eff",
+    "addresses": [
+      "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+    ],
+    "total": 500,
+    "fees": 500,
+    "size": 271,
+    "vsize": 271,
+    "preference": "low",
+    "relayed_by": "221.238.245.45",
+    "received": "2024-11-09T11:14:37.73562981Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "b95bbc0006084b3edb5d87f55bd05b3696c5d34ca7f7ba74426219d5ebe24615",
+        "output_index": 8,
+        "script": "483045022100e08311e3871db8ce56aeeaa0b46909ecee1950968af1408422463f1d61533a2002202493e2de6f7045db496b47b1570f7a8b88f621ea1251c986786b4dd5b81bd715012103019c64252a509d87deb3ac2592c017b5237d7b49b4b96d75845a9a0253740fd2",
+        "output_value": 1000,
+        "sequence": 4294967295,
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 3009503
+      }
+    ],
+    "outputs": [
+      {
+        "value": 500,
+        "script": "21025789c958980e58d22886cc6479e694aebe4d125a4264362fbfdbea05806632eaac6363a914853b775079232503df966e626618e1d388a95720876351686721025789c958980e58d22886cc6479e694aebe4d125a4264362fbfdbea05806632eaac6351686868",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Bob swap tx (BCY) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "e394c5708104d518a4ab706f141e0fc7b7840a87a87e6a166bc9d890b49f02a7",
+    "addresses": [
+      "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+    ],
+    "total": 500,
+    "fees": 79500,
+    "size": 271,
+    "vsize": 271,
+    "preference": "high",
+    "relayed_by": "221.238.245.45",
+    "received": "2024-11-09T11:14:39.895752469Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "723cdf772fefb3e41fe0e7920c680135ba88fabbe9758dcd954acf382f40f3fc",
+        "output_index": 8,
+        "script": "483045022100b25fe456beeafffef136e68314154c991eebe76b48a413388a82c359e130f71702204352619f39a249b51bed2253041aa88e1d0c454db7be9c33294441675fa2017d01210249c0d69594198fa3273ab18ea7e8c4e227129c12d0f3b66087ab9e2607a07ee4",
+        "output_value": 80000,
+        "sequence": 4294967295,
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 1583193
+      }
+    ],
+    "outputs": [
+      {
+        "value": 500,
+        "script": "210306bebeb9ea2234edd8759768db0f5ab66617cb053ffaeea96a93553e33593137ac6363a914853b775079232503df966e626618e1d388a957208763516867210306bebeb9ea2234edd8759768db0f5ab66617cb053ffaeea96a93553e33593137ac6351686868",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Sleeping for 20 minutes to let transactions confirm...
+Bob return coins (BCY) tx created successfully!
+Alice return coins tx (BTC) created successfully!
+Sleeping for bob_locktime blocks to pass locktime...

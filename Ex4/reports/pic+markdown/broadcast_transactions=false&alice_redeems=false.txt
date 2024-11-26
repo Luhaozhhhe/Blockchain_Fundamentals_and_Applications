@@ -1,0 +1,5 @@
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Ex4$ /bin/python3 /home/luhaozhhhe/BlockChain2024/Ex4/swap.py
+Alice swap tx (BTC) created successfully!
+Bob swap tx (BCY) created successfully!
+Bob return coins (BCY) tx created successfully!
+Alice return coins tx (BTC) created successfully!

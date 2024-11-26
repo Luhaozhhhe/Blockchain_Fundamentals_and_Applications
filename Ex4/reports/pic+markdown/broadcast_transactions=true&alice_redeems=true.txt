@@ -1,0 +1,184 @@
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Ex4$ /bin/python3 /home/luhaozhhhe/BlockChain2024/Ex4/swap.py
+Alice swap tx (BTC) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "97356d0a8a7352f634b3bee5048b1a7be1e5ce4198fed7bfd83d9a21f642d43f",
+    "addresses": [
+      "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+    ],
+    "total": 500,
+    "fees": 500,
+    "size": 341,
+    "vsize": 341,
+    "preference": "low",
+    "relayed_by": "221.238.245.45",
+    "received": "2024-11-09T12:16:38.433611918Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "b95bbc0006084b3edb5d87f55bd05b3696c5d34ca7f7ba74426219d5ebe24615",
+        "output_index": 3,
+        "script": "47304402203d25ab0b5346c281ea507fc10b2fa8ee9f4363bff369566d713083c13cccb951022027084ca5d24ec1d630ac0d28490c169d27a7d74a4b47bc270bea8f13432a40eb012103019c64252a509d87deb3ac2592c017b5237d7b49b4b96d75845a9a0253740fd2",
+        "output_value": 1000,
+        "sequence": 4294967295,
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 3009503
+      }
+    ],
+    "outputs": [
+      {
+        "value": 500,
+        "script": "2103019c64252a509d87deb3ac2592c017b5237d7b49b4b96d75845a9a0253740fd2ac6321025789c958980e58d22886cc6479e694aebe4d125a4264362fbfdbea05806632eaac63516776a914853b775079232503df966e626618e1d388a957208763516776522103019c64252a509d87deb3ac2592c017b5237d7b49b4b96d75845a9a0253740fd221025789c958980e58d22886cc6479e694aebe4d125a4264362fbfdbea05806632eaae686868",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Bob swap tx (BCY) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "7e638db6451c428b80cbaba3f936e293c63c1d734361c3c613ee38b95bf93356",
+    "addresses": [
+      "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+    ],
+    "total": 500,
+    "fees": 79500,
+    "size": 341,
+    "vsize": 341,
+    "preference": "high",
+    "relayed_by": "221.238.245.45",
+    "received": "2024-11-09T12:16:39.822222617Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "723cdf772fefb3e41fe0e7920c680135ba88fabbe9758dcd954acf382f40f3fc",
+        "output_index": 2,
+        "script": "473044022033c6fc6519005039749b923a45af65e5258d4fd7bb1a24dc3c49db55c08919f4022016192c4894ea334d7732b196fbaed69e5d0e6bcbf1441160db04c29eb8c63e1701210249c0d69594198fa3273ab18ea7e8c4e227129c12d0f3b66087ab9e2607a07ee4",
+        "output_value": 80000,
+        "sequence": 4294967295,
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 1583193
+      }
+    ],
+    "outputs": [
+      {
+        "value": 500,
+        "script": "210249c0d69594198fa3273ab18ea7e8c4e227129c12d0f3b66087ab9e2607a07ee4ac63210306bebeb9ea2234edd8759768db0f5ab66617cb053ffaeea96a93553e33593137ac63516776a914853b775079232503df966e626618e1d388a95720876351677652210249c0d69594198fa3273ab18ea7e8c4e227129c12d0f3b66087ab9e2607a07ee4210306bebeb9ea2234edd8759768db0f5ab66617cb053ffaeea96a93553e33593137ae686868",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Sleeping for 20 minutes to let transactions confirm...
+Alice redeem from swap tx (BCY) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "129d904e97fe7e6efe4c51c462464b8d6e5bb1e004008cae6eb4534cdc6dc447",
+    "addresses": [
+      "BsSYSANVA3yhuF1i7fo1Eoc8xdeFiK8xBH"
+    ],
+    "total": 0,
+    "fees": 500,
+    "size": 182,
+    "vsize": 182,
+    "preference": "low",
+    "relayed_by": "221.238.245.45",
+    "received": "2024-11-09T12:36:42.82789124Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "7e638db6451c428b80cbaba3f936e293c63c1d734361c3c613ee38b95bf93356",
+        "output_index": 0,
+        "script": "187468697349734153656372657450617373776f72643132334730440220779d09d3538a7ddd6c041313f423dc7d66980188324cb93dae6a777c6948fea9022071a6843aa8ba722dc97df1f5130184fdd84814c017f5f11cbfd7d2db2b113ff801",
+        "output_value": 500,
+        "sequence": 4294967295,
+        "script_type": "unknown",
+        "age": 1583471
+      }
+    ],
+    "outputs": [
+      {
+        "value": 0,
+        "script": "76a9140373e1e8a5409118e7f7e1053ca53107b762df2a88ac",
+        "addresses": [
+          "BsSYSANVA3yhuF1i7fo1Eoc8xdeFiK8xBH"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
+Bob redeem from swap tx (BTC) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "9f86b979668f9f2ee16109fafb70ffff1eec621850c5f2feb3f414064f1d5470",
+    "addresses": [
+      "n4mm4Rm1v3iYHdzjf8tNjAeGgJqkYqa6Fp"
+    ],
+    "total": 0,
+    "fees": 500,
+    "size": 182,
+    "vsize": 182,
+    "preference": "low",
+    "relayed_by": "221.238.245.45",
+    "received": "2024-11-09T12:36:44.194001644Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "97356d0a8a7352f634b3bee5048b1a7be1e5ce4198fed7bfd83d9a21f642d43f",
+        "output_index": 0,
+        "script": "187468697349734153656372657450617373776f72643132334730440220362dd44ebc856e0f7dd745b34971de6889290c984e8ba3c403e8fad8e4645bdf02205b841c959d0aca7c8deabf880a4d619bf389dbac75af911cc72ed08e3947d75f01",
+        "output_value": 500,
+        "sequence": 4294967295,
+        "script_type": "unknown",
+        "age": 0
+      }
+    ],
+    "outputs": [
+      {
+        "value": 0,
+        "script": "76a914ff17c10633bed529eb13e2f42966629a3559497088ac",
+        "addresses": [
+          "n4mm4Rm1v3iYHdzjf8tNjAeGgJqkYqa6Fp"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}

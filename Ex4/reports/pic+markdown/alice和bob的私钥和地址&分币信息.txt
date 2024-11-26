@@ -1,0 +1,287 @@
+alice：
+
+tx: 6a1c1c4257890d699b47685053744bf0db805bd19e96f3d4930bba74de89ec1d
+address: mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM
+private key: cW3fxHAhp5RRfDcFkbctRPymyYJZe3AEF7UngN8qfnKhkPnccKNj
+
+
+alice的分币记录：
+
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Lab01$ /bin/python3 "/home/luhaozhhhe/BlockChain2024/Lab01/split_test_coins .py"
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "b95bbc0006084b3edb5d87f55bd05b3696c5d34ca7f7ba74426219d5ebe24615",
+    "addresses": [
+      "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+    ],
+    "total": 10000,
+    "fees": 1267,
+    "size": 497,
+    "vsize": 497,
+    "preference": "low",
+    "relayed_by": "60.29.153.8",
+    "received": "2024-10-04T01:33:13.270174753Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 10,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "6a1c1c4257890d699b47685053744bf0db805bd19e96f3d4930bba74de89ec1d",
+        "output_index": 0,
+        "script": "47304402201c17a39d6d828a07c001923f0295d44ff0d0412748dc04b361427a3ab5bfb3290220559695c1cee8c01c1e09e0c6eb33944e4da153d0ba9c2e3eb22b5584cac8f1ab012103019c64252a509d87deb3ac2592c017b5237d7b49b4b96d75845a9a0253740fd2",
+        "output_value": 11267,
+        "sequence": 4294967295,
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 3009499
+      }
+    ],
+    "outputs": [
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 1000,
+        "script": "76a91400fa1e6ef769eba91e3122092755acee1536f48088ac",
+        "addresses": [
+          "mfc7vcpxHGRNjQ4qRB4CUkZvbAYCjCyswM"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
+
+
+我的token：70b80107bc4b4e1084cdb864f3f7654d
+
+
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Ex4$ curl -X POST https://api.blockcypher.com/v1/bcy/test/addrs?token=70b80107bc4b4e1084cdb864f3f7654d
+{
+  "private": "33221dfdfa1299318360325284bccea4d284aebf8193f5089933f47e7eed109a",
+  "public": "0306bebeb9ea2234edd8759768db0f5ab66617cb053ffaeea96a93553e33593137",
+  "address": "BsSYSANVA3yhuF1i7fo1Eoc8xdeFiK8xBH",
+  "wif": "Bq3RjFo79wzj3gFRqp3jEL1sEHTMmg5ZfPQNtNXkqw1jWpTSfASk"
+}
+
+
+bob：
+Private key: cTuLwu7GguKL8Y1BVUH8Tmf7VbuWiJcYPGps4VUDrMLt495dyFTx
+Address: n4mm4Rm1v3iYHdzjf8tNjAeGgJqkYqa6Fp
+token：d575d69329cf42d6ba26be47883dc2cf
+
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Ex4$ curl -X POST https://api.blockcypher.com/v1/bcy/test/addrs?token=d575d69329cf42d6ba26be47883dc2cf
+{
+  "private": "06f504114d5bdecf6d67f5a4c9a3d2ef7a55daca4d14f27cded40f4c004ad9c7",
+  "public": "0249c0d69594198fa3273ab18ea7e8c4e227129c12d0f3b66087ab9e2607a07ee4",
+  "address": "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK",
+  "wif": "BoZZ7SccwVnhMnTvnPsBm6jRckFRBVFBPcBaAFyMjuEsiQcgmUCP"
+}
+
+{
+  "tx_ref": "3ebac73d2ad92458ec1b885026fb896db4856621192a59867fd34e2ee899b946"
+}
+
+
+bob的分币：
+luhaozhhhe@luhaozhhhe-virtual-machine:~/BlockChain2024/Ex4$ /bin/python3 /home/luhaozhhhe/BlockChain2024/Ex4/split_test_coins.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "723cdf772fefb3e41fe0e7920c680135ba88fabbe9758dcd954acf382f40f3fc",
+    "addresses": [
+      "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+    ],
+    "total": 800000,
+    "fees": 200000,
+    "size": 498,
+    "vsize": 498,
+    "preference": "high",
+    "relayed_by": "221.238.245.45",
+    "received": "2024-11-09T07:38:59.426761473Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 10,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "3ebac73d2ad92458ec1b885026fb896db4856621192a59867fd34e2ee899b946",
+        "output_index": 0,
+        "script": "4830450221009635d6067102b3e3752dc127a5ebb2efde6c2c171e3a5226e7f2e070bd36178b022044a0bdebcc69fba2214cea0e6ccd55c06c250d874fe8579f8536fbd32024149501210249c0d69594198fa3273ab18ea7e8c4e227129c12d0f3b66087ab9e2607a07ee4",
+        "output_value": 1000000,
+        "sequence": 4294967295,
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 1583182
+      }
+    ],
+    "outputs": [
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 80000,
+        "script": "76a91489187119d2b8095227f76f8448b07b2fee7e84e888ac",
+        "addresses": [
+          "C5dBSTc1h8ScB4mFoxzShMjmAw7ESe9xmK"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
+
+
+
+
+
